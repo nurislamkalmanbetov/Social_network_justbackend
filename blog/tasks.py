@@ -6,7 +6,7 @@ from django.utils.crypto import get_random_string
 from django.utils import timezone
 
 from celery import shared_task
-from .send_mail import send_mail
+# from .send_mail import send_mail
 
 
 @shared_task

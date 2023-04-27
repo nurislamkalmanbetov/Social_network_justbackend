@@ -1,16 +1,32 @@
-### Hi, here is project for social-network only backend
-### with
+# Название проекта
 
-### ______________
->Serializers
-### ______________
->DRF - RestAPI
-### ______________
->Gmail send
-### ______________
->Gmail authentication
-### ______________
->Celery
-### ______________
->Admin
-### ______________
+Описание проекта
+
+## Функциональность
+
+- Serializers
+- DRF (Django Rest Framework) для REST API
+- Отправка электронной почты через Gmail
+- Аутентификация через Gmail
+- Celery для асинхронных задач + Flower 
+- Панель администратора
+- Развертывание в контейнер Dockerfile + docker-compose.yaml
+
+## Запуск проекта
+
+1. Клонируйте репозиторий
+2. Установите зависимости: `pip install -r requirements.txt`
+3. Запустите миграции: `python manage.py migrate`
+4. Запустите сервер: `python manage.py runserver`
+
+## Как использовать
+
+Описание того, как использовать API вашего проекта
+
+## Авторы
+
+- Имя Фамилия (email@example.com) - Еще не использовал никто
+
+## Лицензия
+
+Этот проект находится под лицензией MIT. Подробности смотрите в файле LICENSE.
